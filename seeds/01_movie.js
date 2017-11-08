@@ -4,9 +4,9 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('movie').insert([
-        {title: 'Star Wars'},
-        {title: 'Enders Game'},
-        {title: 'Inside Llewyn Davis'}
+        {id: 1, title: 'Star Wars'},
+        {id: 2, title: 'Enders Game'},
+        {id: 3, title: 'Inside Llewyn Davis'}
       ]);
     });
 };
